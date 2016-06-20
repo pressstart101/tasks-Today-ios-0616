@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "EventDetailViewController.h"
+#import <EventKit/EventKit.h>
 @interface FISViewController : UIViewController
 
 - (NSArray *)getNextYearsEvents;
